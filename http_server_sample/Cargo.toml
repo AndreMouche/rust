@@ -1,0 +1,11 @@
+[package]
+name = "http_server_sample"
+version = "0.1.0"
+authors = ["shirly <AndreMouche@126.com>"]
+edition = "2018"
+
+[dependencies]
+lazy_static = "1.1.0"
+hyper = {version = "0.9", default-features = false}
+prometheus = "0.4"
+random = "0.12.2"
